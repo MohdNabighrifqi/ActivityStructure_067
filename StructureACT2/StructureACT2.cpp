@@ -3,14 +3,14 @@ using namespace std;
 
 struct DetailAlamat
 {
-	string desa[20];
-	string kota[20];
+	char desa[20];
+	char kota[20];
 };
 
 struct Mahasiswa
 {
-	string NIM[12];
-	string nama[20];
+	char NIM[12];
+	char nama[20];
 	DetailAlamat alamat;
 	int umur;
 };
@@ -19,9 +19,8 @@ int main() {
 	Mahasiswa mhs;
 
 	cout << "masukan NIM :";
-	cin.getline(mhs.NIM,12);
+	cin.getline(mhs.NIM, 12);
 	cout << "masukan umur :";
-	cin >> mhs.umur;
 	cin >> mhs.umur;
 	cin.ignore(1, '\n');
 	cout << "masukan nama :";
