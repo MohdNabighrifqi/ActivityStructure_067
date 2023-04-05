@@ -19,18 +19,19 @@ int main() {
 	Mahasiswa mhs;
 
 	cout << "masukan NIM :";
-	cin.getline(mhs.NIM, 12);
+	cin.getline(mhs.NIM,12);
 	cout << "masukan umur :";
+	cin >> mhs.umur;
 	cin >> mhs.umur;
 	cin.ignore(1, '\n');
 	cout << "masukan nama :";
-	cin.getline(mhs.nama, 20);
+	cin.getline(mhs.nama,20);
 	cout << "alamat :";
 	cout << "\n\tMasukan desa :";
-	cin.getline(mhs.alamat.desa, 20);
+	cin.getline(mhs.alamat.desa,20);
 	cout << "\tMasukan kota :";
 	cin.getline(mhs.alamat.kota,20);
-	
+
 
 	cout << "\n\nNIM : " << mhs.NIM;
 	cout << "\nUmur : " << mhs.umur;
@@ -38,5 +39,5 @@ int main() {
 	cout << "\nAlamat : ";
 	cout << "\n\tDesa : " << mhs.alamat.desa;
 	cout << "\n\tKota : " << mhs.alamat.kota;
-	
+
 }

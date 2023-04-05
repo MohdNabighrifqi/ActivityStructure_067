@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7254a68e-eb6c-428b-a83c-6ab9cd13c47d}</ProjectGuid>
-    <RootNamespace>StructureAct</RootNamespace>
+    <ProjectGuid>{a35811de-242a-4a18-a1f4-4070657ec2a1}</ProjectGuid>
+    <RootNamespace>StructureAct3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="StructureAct.cpp" />
+    <ClCompile Include="StructureAct3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
