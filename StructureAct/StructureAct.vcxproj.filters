@@ -13,12 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{8f642e86-d5c4-4f97-9e21-9f1528fdaf22}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StructureAct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StructureAct2.cpp">
+    <ClCompile Include="StructureAAct2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StructureAct3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

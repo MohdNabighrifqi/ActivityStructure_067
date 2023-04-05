@@ -127,8 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="StructureAAct2.cpp" />
     <ClCompile Include="StructureAct.cpp" />
-    <ClCompile Include="StructureAct2.cpp" />
+    <ClCompile Include="StructureAct3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
