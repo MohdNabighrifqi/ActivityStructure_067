@@ -32,8 +32,8 @@ int main() {
 	cout << "\nAlamat = " << mhs1.alamat;
 
 
-	cout << "\n\nNIM = " << mhs2.NIM;
-	cout << "\n\nUmur = " << mhs2.umur;
-	cout << "\n\nNama = " << mhs2.nama;
-	cout << "\n\nAlamat = " << mhs2.alamat;
+	cout << "\nNIM = " << mhs2.NIM;
+	cout << "\nUmur = " << mhs2.umur;
+	cout << "\nNama = " << mhs2.nama;
+	cout << "\nAlamat = " << mhs2.alamat;
 }
